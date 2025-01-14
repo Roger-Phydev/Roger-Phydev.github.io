@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Parra</title>
+    <meta name="author" content="Brian Rogelio Parra Hernández">
+    <meta name="description" content="Una página personal para conocer mi perfil y trabajos">
+    <meta name="keywords" content="brian,Brian,Parra,parra,Brian Parra,Brian Rogelio Parra Hernández,RogerPhydev, desarrollador web, Web developer, CDMX, México, ciudad de méxico, desarrollador de páginas web">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <dialog id="dialog">
+        <form method="dialog">
+            <h2>Ooops!!!</h2>
+            <p>Parece que seleccionaste un ejercicio equivocado. Asegúrate de que el número de ejercicio sea un número entero, si seleccionaste la lista 1, verifica que esté entre 1 y 50, y en caso de haber elegido la lista 2 entre 1 y 35</p>
+            <button type="submit"><p>Continuar</p></button>
+        </form>
+    </dialog>
+    <header id="header">
+        <nav class="header__links-container">
+            <a href="#Who" class="header__link"><p>¿Quién soy?</p></a>
+            <a href="#knowledge" class="header__link"><p>Mis conocimientos</p></a>
+            <a href="#info" class="header__link"><p>Información</p></a>
+            <a href="#repository" class="header__link"><p>Repositorio</p></a>
+            <a href="#Hobbies" class="header__link"><p>Hobbies</p></a>
+        </nav>
+        <div class="header__icon">
+            <span class="material-symbols-outlined normal" id="open">Dehaze</span>
+            <span class="material-symbols-outlined normal" id="close">Close</span>
+        </div>
+    </header>
+    <nav id="navi">
+        <div class="navi__links-container">
+            <a href="#Who" class="navi__link">¿Quién soy?</a>
+            <a href="#knowledge" class="navi__link">Mis conocimientos</a>
+            <a href="#info" class="navi__link">Información</a>
+            <a href="#repository" class="navi__link">Repositorio</a>
+            <a href="#Hobbies" class="navi__link">Hobbies</a>
+        </div>
+    </nav>
+    <main>
+        <section class="section" id="Who">
+            <h2>¿Quién soy?</h2>
+            <p class="text">
+            </p>
+            <p class="text">
+                Otra de mis mayores virtudes es el aprendizaje. En el año 2021 obtuve un diploma con <em>perfil de excelencia</em> en <strong>robótica aplicada</strong> por parte de la Asociación de Robótica Aplicada y Ciencias de la Tecnología ( <strong>ARACT</strong> )con validez ante la secretaría del trabajo. Posteriormente me gradué el año 2023 como <strong>Físico</strong> en la <strong>UNAM</strong> (Universidad Nacional Autónoma de México), cuento con <em>cédula profesional</em>. Además, cuento con un <em>diplomado</em> por la misma institución sobre <strong>enseñanza de la física</strong>. Finalmente, obtuve además con un certificado de <em>comprensión y dominio de inglés</em> ( <strong>TOEFL</strong> ) expedido por la facultad de contaduría y administración de la UNAM en 2023.
+            </p>
+            <p class="text">
+                Si bien mis estudios son variados, mi búsqueda de trabajo es en el campo de desarrollo web, particularmente en <strong>Front end</strong>.
+            </p>
+        </section>
+        <section class="section" id="knowledge">
+            <h2>Mis conocimientos</h2>
+            <p class="text">
+                Los conocimientos que tengo para desarrollo web, son en 5 distintas áreas. En primer lugar, mis niveles son los siguientes: en <strong>HTML</strong> intemedio alto, en <strong>CSS</strong> intermedio, en <strong>Javascript</strong> intermedio alto, en <strong>SQL</strong> intermedio y en <strong>Python</strong> intermedio alto. Visualmente, esto corresponde a la representación de abajo.
+            </p>
+            <div class="bar-container">
+                <div class="bar-bckgnd"><div class="bar bar--80">HTML</div></div>
+                <div class="bar-bckgnd"><div class="bar bar--60">CSS</div></div>
+                <div class="bar-bckgnd"><div class="bar bar--80">JavaScript</div></div>
+                <div class="bar-bckgnd"><div class="bar bar--60">SQL</div></div>
+                <div class="bar-bckgnd"><div class="bar bar--80">Python</div></div>
+            </div>
+        </section>
+        <section class="section" id="info">
+            <h2>Mi información de contacto</h2>
+            <p class="text">
+                En este breve apartado coloco datos que faciliten mi contacto y datos de interés.
+            </p>
+            <div class="info__container">
+                <div class="info__image-container">
+                    <img src="images/mail.png" alt="Correo electrónico" class="info__image">
+                    <p>brian10parra@gmail.com</p>
+                </div>
+                <div class="info__image-container">
+                    <img src="images/github.png" alt="repositorio" class="info__image">
+                    <p>RogerPhyDev</p>
+                </div>
+                <div class="info__image-container">
+                    <img src="images/phone.png" alt="teléfono" class="info__image">
+                    <p>55 - 61 - 67 - 15 - 26</p>
+                </div>
+                <div class="info__image-container">
+                    <img src="images/location.png" alt="ubicación" class="info__image">
+                    <p>Zona sur,CDMX,México</p>
+                </div>
+            </div>
+        </section>
+        <div class="cv-container">
+            <button id="download-cv" class="repository__button"><p>descargar la versión PDF</p></button>
+        </div>
+        <section class="section" id="repository">
+            <h2>Mi repositorio</h2>
+            <p class="text">
+                Se que es importante poder ver mis capacidades para saber si soy o no del interés de una empresa, y si bien, esta página funge como principal muestra de mis habilidades CSS/HTML, aún quedan pendientes mis habilidades de Python y JS, así como SQL. Es por tal motivo que tengo el repositorio citado más arriba donde tengo <em>ejercicios</em> que realicé con forme fui aprendiendo desarrollo web.
+            </p>
+            <p class="text">
+                Sin embargo, no acabaría de sentirme bien conmigo mismo sin poder crear un menú de acceso desde esta misma página a mi repositorio. Y no solo eso, sino que desde aquí podrás revisar la lista de ejercicios, e ir directamente a alguno en específico. Aviso desde este momento que solo direcciona al <em>código</em>, y <em>no a archivos asociados</em>, aunque se señalan cuales son estos.
+            </p>
+            <menu class="repository__menu">
+                <h3>Enlaces a mi cuenta</h3>
+                <button class="repository__button"><p>Cuenta de GitHub</p></button>
+                <button class="repository__button"><p>Índice lista 1</p></button>
+                <button class="repository__button"><p>Índice lista 2</p></button>
+                <button class="repository__button"><p>Lista 1</p></button>
+                <button class="repository__button"><p>Lista 2</p></button>
+            </menu>
+            <menu class="repository__search">
+                <h3>Buscar un ejercicio</h3>
+                <fieldset class="search--field">
+                    <legend class="search--legend">Lista</legend>
+                    <label for="list__number"># de lista</label>
+                    <select name="" id="list__number" class="input lst">
+                        <option value="1">Lista 1</option>
+                        <option value="2">Lista 2</option>
+                    </select>
+                    <label for="list__random">Lista al azar</label>
+                    <input type="checkbox" id="list__random" class="random">
+                </fieldset>
+                <fieldset class="search--field">
+                    <legend class="search--legend">Lenguaje</legend>
+                    <label for="lang"></label>
+                    <select name="" id="lang" class="input lst">
+                        <option value="py">Python</option>
+                        <option value="js">JavaScript</option>
+                    </select>
+                    <label for="lang__random">Lenguaje al azar</label>
+                    <input type="checkbox" id="lang__random" class="random">
+                </fieldset>
+                <fieldset class="search--field">
+                    <legend class="search--legend">Ejercicio</legend>
+                    <label for="exercise__number"># de ejercicio</label>
+                    <input type="number" id="exercise__number" class="input" min="1" max="52" value="1">
+                    <label for="exercise__random">ejercicio al azar</label>
+                    <input type="checkbox" id="exercise__random" class="random">
+                </fieldset>
+                <fieldset class="repository__info">
+                    <legend class="search--legend">Información:</legend>
+                    <textarea name="" id="search--info" readonly rows="10"></textarea>
+                    <div id="search__links-container">
+                        Links asociados:
+                        <ul id="search__links">
+                            <li class="code"><a class="search__link" href="" target="_blank">fdsfdsgdfgdfg</a></li>
+                            <li class="style"><a class="search__link" href="">fdsfdsgdfgdfg</a></li>
+                            <li class="html"><a class="search__link" href="">fdsfdsgdfgdfg</a></li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <button class="repository__button" id="search">
+                    <p>Buscar</p>
+                </button>
+            </menu>
+        </section>
+        <section class="section" id="Hobbies">
+            <h2>Sobre mis gustos</h2>
+            <p class="text">Quizá como elemento secundario, sea interesante mencionar un poco de mis pasiones y gustos en general. Recalco que esta sección es totalmente <em>opcional y secundaria</em>. Una vez aclarado esto, comencemos con mi mayor hobbie.</p>
+            <h4>Videojuegos</h4>
+            <p class="text">Desde muy pequeño siempre encontré apasionante este medio de entretenimiento. Si bien me gustan algunos juegos con multijugador (la saga que más me gusta en este rubro es HALO), soy más partidiario de jugar experiencias de <em>un solo jugador</em>, reservándome algunos juegos cooperativos para jugar con amigos en un mismo sillón.</p>
+            <p class="text">Mis géneros favoritos son los <em>fps</em> (first pearson shooter), <em>plataformas 3d</em>, <em>rpg</em> (en especial de acción) y <em>puzzles</em>. Por mencionar algunos juegos que de verdad me encantan y me marcaron, dejo la siguiente lista junto con una anotación de su género. </p>
+            <details class="Hobbies__details">
+                <summary class="Hobbies__summary">
+                    Lista de mis videojuegos favoritos
+                </summary>
+                <ul class="Hobbies__list">
+                <li class="Hobbies__list-item list-item--games">Borderlands 2 (fps,rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Halo infinite (fps)</li>
+                <li class="Hobbies__list-item list-item--games">Gears of war 2 (third pearson shooter)</li>
+                <li class="Hobbies__list-item list-item--games">Gears 5 (tps)</li>
+                <li class="Hobbies__list-item list-item--games">Halo 3 odst(fps)</li>
+                <li class="Hobbies__list-item list-item--games">Scarlet Nexus (action rpg)</li>
+                <li class="Hobbies__list-item list-item--games">The legend of zelda: ocarina of time (adventure, action)</li>
+                <li class="Hobbies__list-item list-item--games">The legend of zelda: breath of the wild (sandbox,adventure)</li>
+                <li class="Hobbies__list-item list-item--games">Red dead redemption 2 (sandbox,shooter)</li>
+                <li class="Hobbies__list-item list-item--games">Dragon quest IV (rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Starfield (fps,rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Eiyuden Chronicle: One hundred heroes (rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Super Mario Galaxy (3D platformer)</li>
+                <li class="Hobbies__list-item list-item--games">Super Mario Odyssey (3D platformer)</li>
+                <li class="Hobbies__list-item list-item--games">Banjo kazooie (3D platformer)</li>
+                <li class="Hobbies__list-item list-item--games">New Super Lucky's Tale (3D platformer)</li>
+                <li class="Hobbies__list-item list-item--games">Pokemon black and white (rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Mario&Luigi: dream team (rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Paper Mario The origami king (adventure,puzzles)</li>
+                <li class="Hobbies__list-item list-item--games">Picross DS (puzzles)</li>
+                <li class="Hobbies__list-item list-item--games">Picross 3D (puzzles)</li>
+                <li class="Hobbies__list-item list-item--games">Ys: celceta no jukai (rpg,adventure)</li>
+                <li class="Hobbies__list-item list-item--games">Ys: felghana no chikai (rpg,adventure)</li>
+                <li class="Hobbies__list-item list-item--games">Tiny Tina's wonderlands (fps,rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Assasin's creed IV: black flag (adventure,action)</li>
+                <li class="Hobbies__list-item list-item--games">Hotline miami 2(action)</li>
+                <li class="Hobbies__list-item list-item--games">Neon white (shooter,3D platformerer,cards)</li>
+                <li class="Hobbies__list-item list-item--games">Donkey kong country 2 (2D platformerer)</li>
+                <li class="Hobbies__list-item list-item--games">Undertale (rpg)</li>
+                <li class="Hobbies__list-item list-item--games">Marvel's guardians of the galaxy (adventure,action)</li>
+                <li class="Hobbies__list-item list-item--games">Metal slug 3 (shooter)</li>
+                <li class="Hobbies__list-item list-item--games">Metal slug 5 (shooter)</li>
+                <li class="Hobbies__list-item list-item--games">Nier Automata (rpg,action)</li>
+                <li class="Hobbies__list-item list-item--games">Conker bad fur day (3D platformerer)</li>
+                <li class="Hobbies__list-item list-item--games">Sunset overdrive (action,adventure)</li>
+                <li class="Hobbies__list-item list-item--games">Xenoblade chronicles (rpg,action)</li>
+                <li class="Hobbies__list-item list-item--games">Wolfenstein II: The new colossus (fps)</li>
+                <li class="Hobbies__list-item list-item--games">Doom eternal (fps)</li>
+                <li class="Hobbies__list-item list-item--games">Tunic (adventure,puzzles,action)</li>
+                <li class="Hobbies__list-item list-item--games">Redfall (fps,rpg)</li>
+                <li class="Hobbies__list-item list-item--games">High on life (fps,adventure)</li>
+                <li class="Hobbies__list-item list-item--games">Voodoo Vince (3D platformer)</li>
+                <li class="Hobbies__list-item list-item--games">Figment 2 (action,puzzles)</li>
+                <li class="Hobbies__list-item list-item--games">Warhammer 40K: shootas, blood and teef (shooter)</li>
+                <li class="Hobbies__list-item list-item--games">Warhammer 40K: boltgun (fps)</li>
+                <li class="Hobbies__list-item list-item--games">Grim Fandango (Adventure game)</li>
+            </ul>
+            </details>
+            <h4>Libros</h4>
+                <p class="text">
+                    Si bien el videojuego resulta un entretenimiento principal, entre mis hobbies secundarios está la <em>lectura</em>. Desde luego, me agradan temas variados, comenzando con libros de <em>matemáticas abstractas y física teórica</em>. Las lecturas históricas y sociales también son de mi agrado, aunque quizá, dentro de los textos que más me resultan placenteros para pasar el rato están los textos de <em>terror</em>, siendo así, no es de extrañar que mis tres autores preferidos sean <em>Edgar Allan Poe, H.P. Lovecraft y Stephen King</em>.
+                </p>
+                <p class="text">
+                    Respecto a los temas de ciencia, me agrada de vez en cuando seguir revisando temas de <em>cálculo, álgebra lineal y ecuaciones diferenciales</em>. Aunque particularmente es de mi agrado de vez en cuando revisar <em>Geometría Riemanniana</em> (junto con su aplicación más directa: Relatividad general) y <em>teoría cuántica de campos</em> (cuyo caso más simple relevante es la electrodinámica cuántica). A pesar de ello, debo mencionar que también de vez en cuando me agrada leer un poco de <em>electrónica/robótica</em>.
+                    De manera similar a los videojuegos, dejo abajo una lista de libros que forman parte de mis favoritos.
+                </p>
+                <details class="Hobbies__details">
+                    <summary class="Hobbies__summary">
+                        Lista de mis libros favoritos
+                    </summary>
+                    <ul class="Hobbies__list">
+                        <li class="Hobbies__list-item list-item--books">Cementerio de animales - Stephen King</li>
+                        <li class="Hobbies__list-item list-item--books">Pesadillas y alucinaciones - Stephen King</li>
+                        <li class="Hobbies__list-item list-item--books">El umbral de la noche - Stephen King</li>
+                        <li class="Hobbies__list-item list-item--books">Blaze - Stephen King</li>
+                        <li class="Hobbies__list-item list-item--books">El domo - Stephen King</li>
+                        <li class="Hobbies__list-item list-item--books">El traje del muerto - Joe Hill</li>
+                        <li class="Hobbies__list-item list-item--books">Lo que susurra en la oscuridad - H.P. Lovecraft</li>
+                        <li class="Hobbies__list-item list-item--books">El modelo de Pickman - H.P. Lovecraft</li>
+                        <li class="Hobbies__list-item list-item--books">En la cripta - H.P. Lovecraft</li>
+                        <li class="Hobbies__list-item list-item--books">Narraciones extraordinarias - Edgar Allan Poe</li>
+                        <li class="Hobbies__list-item list-item--books">Mr. Vértigo - Paul Auster</li>
+                        <li class="Hobbies__list-item list-item--books">La rebelión en la granja - George Orwell</li>
+                        <li class="Hobbies__list-item list-item--books">1984 - George Orwell</li>
+                        <li class="Hobbies__list-item list-item--books">Drácula - Bram Stocker</li>
+                        <li class="Hobbies__list-item list-item--books">Pedro Páramo - Juan Rulfo</li>
+                        <li class="Hobbies__list-item list-item--books">Distant Neighbors - Alan Riding</li>
+                        <li class="Hobbies__list-item list-item--books">Calculus I/II - Tom M. Apostol</li>
+                        <li class="Hobbies__list-item list-item--books">Logic and Computer Design Fundamentals - M.Morris and Charles Kime</li>
+                        <li class="Hobbies__list-item list-item--books">Analysis and design of analog integrated circuits - Gray Hurst Lewis Meyer</li>
+                        <li class="Hobbies__list-item list-item--books">Microelectronic circuits - Sedra & Smith</li>
+                        <li class="Hobbies__list-item list-item--books">Relativistic Quantum Mechanics - W. Greiner</li>
+                        <li class="Hobbies__list-item list-item--books">Quantum Theory for Mathematicians - Brian C. Hall</li>
+                        <li class="Hobbies__list-item list-item--books">Quantum Field Theory - W.Greiner</li>
+                        <li class="Hobbies__list-item list-item--books">Quantum electrodynamics - W.Greiner</li>
+                        <li class="Hobbies__list-item list-item--books">Relatividad para futuros físicos - Saúl Ramos Sánchez</li>
+                        <li class="Hobbies__list-item list-item--books">The Feynman Lectures on Physics - Richard P. Feynman</li>
+                        <li class="Hobbies__list-item list-item--books">El camino hacia la realidad - Roger Penrose</li>
+                        <li class="Hobbies__list-item list-item--books">Notas de topología - Sergey A. Antonyan</li>
+                        <li class="Hobbies__list-item list-item--books">Ecuaciones diferenciales y cálculo variacional - L. Elsgoltz</li>
+                        <li class="Hobbies__list-item list-item--books">A course in the theory of groups - Derek J.S. Robinson</li>
+                        <li class="Hobbies__list-item list-item--books">Galois theory - Joseph Rotman</li>
+                    </ul>
+                </details>
+            <h4>Series y anime</h4>
+            <p class="text">
+                Aunado a lo anterior, debo mencionar que el cine no es de mi especial agrado. Sin embargo, las <em>series</em>, y sobre todo, el <em>anime</em>, me agradan bastante. Los géneros que más me agradan son más o menos similares a los que me agradan en literatura: <em>terror, misterio, drama</em>. Pero en este caso, agrego el género de <em>comedia</em> que es uno de mis preferidos.
+            </p>
+            <p class="text">
+                Comenzando con las series, en lo personal me agrada el misterio, terror y drama. Por otro lado en el anime, me agrada bastante la acción, pero sin dejar de lado el misterio y terror, aunque escasea bastante ultimamente. Mi lista personal de favoritos, señala género y si es serie o anime.
+            </p>
+            <details class="Hobbies__details">
+                <summary class="Hobbies__summary">
+                    Lista de mis series/anime favoritos
+                </summary>
+                <ul class="Hobbies__list">
+                    <li class="Hobbies__list-item list-item--show">The walking dead (serie,terror)</li>
+                    <li class="Hobbies__list-item list-item--show">Lost (serie,misterio/terror)</li>
+                    <li class="Hobbies__list-item list-item--show">Narcos (serie,acción/basado en hechos reales)</li>
+                    <li class="Hobbies__list-item list-item--show">Breaking Bad (serie,drama/acción)</li>
+                    <li class="Hobbies__list-item list-item--show">Better call Saul (serie,drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Stranger Things (serie,terror/misterio/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Mindhunter (serie,misterios)</li>
+                    <li class="Hobbies__list-item list-item--show">El guerrero de chinatown (serie,acción/histórico/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Peaky Blinders (serie,acción/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Dhamer (serie, terror)</li>
+                    <li class="Hobbies__list-item list-item--show">Black Mirror (serie,misterio/ciencia-ficción/terror)</li>
+                    <li class="Hobbies__list-item list-item--show">School Tales (serie,terror)</li>
+                    <li class="Hobbies__list-item list-item--show">Bojack Horseman (serie,drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Malcolm in the middle (serie,comedia/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Bob esponja (serie,infantil/comedia)</li>
+                    <li class="Hobbies__list-item list-item--show">Coraje el perro cobarde (serie,terror/infantil)</li>
+                    <li class="Hobbies__list-item list-item--show">Jojo no kimyouna bouken (anime,acción/misterio)</li>
+                    <li class="Hobbies__list-item list-item--show">HunterxHunter (anime,acción)</li>
+                    <li class="Hobbies__list-item list-item--show">Monster (anime,misterio/psicológico)</li>
+                    <li class="Hobbies__list-item list-item--show">Higurashi no naku koro ni (anime,terror/misterio/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Shiki (anime,terror/misterio)</li>
+                    <li class="Hobbies__list-item list-item--show">Tate no yuusha no nari agari (anime,drama/acción/comedia)</li>
+                    <li class="Hobbies__list-item list-item--show">Belzebub (anime,acción/comedia)</li>
+                    <li class="Hobbies__list-item list-item--show">Gintama (anime,comedia)</li>
+                    <li class="Hobbies__list-item list-item--show">Paranoia Agent (anime,psicológico/misterio)</li>
+                    <li class="Hobbies__list-item list-item--show">Jigoku Shoujo (anime,terror/misterio/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Ajin (anime,misterio/drama/acción)</li>
+                    <li class="Hobbies__list-item list-item--show">Gantz (anime,acción/misterio/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Psychopass (anime,psicológico/drama/misterio)</li>
+                    <li class="Hobbies__list-item list-item--show">Terraformars (anime,ciencia-ficción/acción)</li>
+                    <li class="Hobbies__list-item list-item--show">Cowboy Bebop (anime,ciencia-ficción/acción/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Mononoke (anime,terror/misterio)</li>
+                    <li class="Hobbies__list-item list-item--show">Inuyashiki (anime,psicológico/drama)</li>
+                    <li class="Hobbies__list-item list-item--show">Yami Shibai (anime,terror)</li>
+                    <li class="Hobbies__list-item list-item--show">Aku no hana (anime,drama/psicológico)</li>
+                    <li class="Hobbies__list-item list-item--show">Orange (anime,drama)</li>
+                </ul>
+            </details>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer-element">
+            <span class="material-symbols-outlined big">Mail</span>
+            <strong class="footer__strong">brian10parra@gmail.com</strong>
+        </div>
+        <div class="footer-element">
+            <span class="material-symbols-outlined big">account_box</span>
+            <a href="https://github.com/Roger-Phydev"><strong class="footer__strong">RogerPhydev (GitHub)</strong></a>
+        </div>
+        <div class="footer-element">
+            <span class="material-symbols-outlined big">copyright</span>
+            <strong class="footer__strong">Copyright RogerPhydev 2024</strong>
+        </div>
+    </footer>
+</body>
+<script src="code.js"></script>
+</html>
